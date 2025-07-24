@@ -10,7 +10,8 @@
     "dev:debug": "nodemon --inspect",
     "dev:verbose": "nodemon --verbose",
     "build": "tsc",
-    "start": "node dist/server.js"
+    "start": "node dist/server.js",
+    "preinstall": "node preinstall.js"
   },
   "keywords": [],
   "author": "",
